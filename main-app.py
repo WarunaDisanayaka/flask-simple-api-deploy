@@ -18,7 +18,7 @@ CORS(app)
 
 # Configuration
 app.config['SECRET_KEY'] = '56314fbd3c16bf6b128cd3e70bd12236a19b43b5c2998a1d180783364448bc86'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:KesH$1999SQL@localhost/work'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://admin:adminpwd123@worker.cdw0c4uairxc.eu-north-1.rds.amazonaws.com/work'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
 app.config['MAIL_PORT'] = 587
